@@ -1,0 +1,56 @@
+object Form1: TForm1
+  Left = 900
+  Height = 286
+  Top = 325
+  Width = 391
+  Caption = 'Form1'
+  ClientHeight = 266
+  ClientWidth = 391
+  Menu = MainMenu1
+  LCLVersion = '2.0.12.0'
+  object Cadenna: TEdit
+    Left = 64
+    Height = 32
+    Top = 72
+    Width = 248
+    AutoSize = False
+    TabOrder = 0
+    Text = 'Cadenna'
+  end
+  object Cargar: TButton
+    Left = 72
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'Cargar'
+    OnClick = CargarClick
+    TabOrder = 1
+  end
+  object Descargar: TButton
+    Left = 224
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'Descargar'
+    OnClick = DescargarClick
+    TabOrder = 2
+  end
+  object MainMenu1: TMainMenu
+    Top = 16
+    object Ejercicios: TMenuItem
+      Caption = 'Ejercicios'
+      object InsertChar: TMenuItem
+        Caption = 'Insertar Char'
+        OnClick = InsertCharClick
+      end
+      object InsertPos: TMenuItem
+        Caption = 'Insertar Char en posicion'
+        OnClick = InsertPosClick
+      end
+      object Buscar: TMenuItem
+        Caption = 'Buscar Palabra'
+        OnClick = BuscarClick
+      end
+    end
+  end
+end

@@ -1,0 +1,219 @@
+object Form1: TForm1
+  Left = 598
+  Height = 346
+  Top = 220
+  Width = 579
+  Caption = 'Form1'
+  ClientHeight = 326
+  ClientWidth = 579
+  Menu = MainMenu1
+  LCLVersion = '2.0.12.0'
+  object Cajita: TEdit
+    Left = 168
+    Height = 48
+    Top = 96
+    Width = 235
+    AutoSize = False
+    TabOrder = 0
+    Text = 'Introduzca una cadena'
+  end
+  object Cadenas: TLabel
+    Left = 240
+    Height = 27
+    Top = 40
+    Width = 101
+    Align = alCustom
+    Caption = 'Cadenas'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object CaracterBox: TEdit
+    Left = 256
+    Height = 24
+    Top = 148
+    Width = 75
+    AutoSize = False
+    TabOrder = 1
+    Visible = False
+  end
+  object Caracter: TLabel
+    Left = 64
+    Height = 20
+    Top = 152
+    Width = 192
+    Caption = 'Introduzca Caracter:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object Operar: TButton
+    Left = 256
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Operar'
+    OnClick = OperarClick
+    TabOrder = 2
+  end
+  object PosicionBox: TEdit
+    Left = 256
+    Height = 23
+    Top = 200
+    Width = 75
+    TabOrder = 3
+    Visible = False
+  end
+  object Posicion: TLabel
+    Left = 174
+    Height = 20
+    Top = 200
+    Width = 82
+    Caption = 'Posicion:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object Intercambiar: TLabel
+    Left = 8
+    Height = 17
+    Top = 200
+    Width = 247
+    Caption = 'Intercambiar por el caracter:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object Palabra: TLabel
+    Left = 54
+    Height = 20
+    Top = 152
+    Width = 201
+    Caption = 'Introduzca Palabra:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object IntercambiarPa: TLabel
+    Left = 16
+    Height = 17
+    Top = 200
+    Width = 239
+    Caption = 'Intercambiar por la palabra:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object MainMenu1: TMainMenu
+    object Trabajo: TMenuItem
+      Caption = 'Trabajo'
+      object AddChar: TMenuItem
+        Caption = 'Añadir Caracter'
+        OnClick = AddCharClick
+      end
+      object InsertChar: TMenuItem
+        Caption = 'Insertar Caracter'
+        OnClick = InsertCharClick
+      end
+      object elimchar: TMenuItem
+        Caption = 'Eliminar Caracter'
+        OnClick = elimcharClick
+      end
+      object InterChar: TMenuItem
+        Caption = 'Intercambiar Caracter'
+        OnClick = InterCharClick
+      end
+      object CantChar: TMenuItem
+        Caption = 'Cantidad de caracteres'
+        OnClick = CantCharClick
+      end
+      object FindChar: TMenuItem
+        Caption = 'Buscar Caracter'
+        OnClick = FindCharClick
+      end
+      object CantPalabra: TMenuItem
+        Caption = 'Cantidad de palabras'
+        OnClick = CantPalabraClick
+      end
+      object InsertPalabra: TMenuItem
+        Caption = 'Insertar Palabra'
+        OnClick = InsertPalabraClick
+      end
+      object ElimPalabra: TMenuItem
+        Caption = 'Eliminar Palabra'
+        OnClick = ElimPalabraClick
+      end
+      object IntercamPa: TMenuItem
+        Caption = 'Intercambiar Palabras'
+        OnClick = IntercamPaClick
+      end
+      object BuscPa: TMenuItem
+        Caption = 'Buscar Palabra'
+        OnClick = BuscPaClick
+      end
+      object AddPa: TMenuItem
+        Caption = 'Añadir Palabra'
+        OnClick = AddPaClick
+      end
+      object InvertPa: TMenuItem
+        Caption = 'Invertir Palabras'
+        OnClick = InvertPaClick
+      end
+      object RotarPa: TMenuItem
+        Caption = 'Rotar Palabras'
+        OnClick = RotarPaClick
+      end
+      object MayusPa: TMenuItem
+        Caption = 'Convertir a mayusculas'
+        OnClick = MayusPaClick
+      end
+      object MinusPA: TMenuItem
+        Caption = 'Convertir a minuscula'
+        OnClick = MinusPAClick
+      end
+      object TitleName: TMenuItem
+        Caption = 'Titulo'
+        OnClick = TitleNameClick
+      end
+    end
+  end
+end

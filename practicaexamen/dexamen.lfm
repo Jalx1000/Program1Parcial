@@ -1,0 +1,87 @@
+object Form1: TForm1
+  Left = 266
+  Height = 297
+  Top = 203
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 297
+  ClientWidth = 320
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 96
+    Height = 32
+    Top = 16
+    Width = 100
+    Caption = 'EXAMEN'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object V: TEdit
+    Left = 64
+    Height = 23
+    Top = 56
+    Width = 184
+    TabOrder = 0
+    TextHint = 'Valor...'
+  end
+  object R: TEdit
+    Left = 63
+    Height = 23
+    Top = 96
+    Width = 185
+    TabOrder = 1
+    TextHint = 'Resultado...'
+  end
+  object Button1: TButton
+    Left = 64
+    Height = 25
+    Top = 160
+    Width = 184
+    Caption = 'SetValor'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 64
+    Height = 25
+    Top = 128
+    Width = 184
+    Caption = 'Crear'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 63
+    Height = 25
+    Top = 192
+    Width = 185
+    Caption = 'GetValor'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Button4: TButton
+    Left = 63
+    Height = 25
+    Top = 224
+    Width = 185
+    Caption = 'Multi3'
+    OnClick = Button4Click
+    TabOrder = 5
+  end
+  object Button5: TButton
+    Left = 104
+    Height = 25
+    Top = 264
+    Width = 94
+    Caption = 'multuplo de 3'
+    OnClick = Button5Click
+    TabOrder = 6
+  end
+end
