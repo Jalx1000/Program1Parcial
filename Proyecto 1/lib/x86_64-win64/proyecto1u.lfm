@@ -1,0 +1,192 @@
+object Form1: TForm1
+  Left = 578
+  Height = 353
+  Top = 254
+  Width = 542
+  Caption = 'Form1'
+  ClientHeight = 353
+  ClientWidth = 542
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object Seleccione: TComboBox
+    Left = 96
+    Height = 23
+    Top = 80
+    Width = 104
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      ''
+      'Cantidad'
+      'Eliminar'
+      'Impares'
+      'Insertar'
+      'Mayor'
+      'Menor'
+      'Obtener'
+      'Pares'
+      'Primos'
+      'Sumar'
+    )
+    OnClick = SeleccioneClick
+    OnSelect = SeleccioneSelect
+    ParentShowHint = False
+    ShowHint = True
+    Sorted = True
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object Operaciones: TLabel
+    Left = 8
+    Height = 16
+    Top = 80
+    Width = 80
+    Caption = 'Operaciones'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Digitos: TLabel
+    Left = 80
+    Height = 33
+    Top = 32
+    Width = 93
+    Caption = 'Digitos'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'Arial Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Enteros: TLabel
+    Left = 392
+    Height = 30
+    Top = 32
+    Width = 88
+    Caption = 'Enteros'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Arial Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Operacioness: TLabel
+    Left = 336
+    Height = 16
+    Top = 80
+    Width = 86
+    Caption = 'Operacioness'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object ComboBox2: TComboBox
+    Left = 424
+    Height = 23
+    Top = 80
+    Width = 100
+    ItemHeight = 15
+    Items.Strings = (
+      'Invertir'
+      'Capicua'
+      'Par'
+      'Impar'
+      'Primo'
+      'Conversión a Binario'
+      'Conversión a Octal'
+      'Conversión a Hexadecimal'
+      'Conversión a Base N'
+      'Conversión a Romano'
+      'Conversión a Literal'
+    )
+    Style = csDropDownList
+    TabOrder = 1
+  end
+  object Valor: TEdit
+    Left = 14
+    Height = 23
+    Top = 144
+    Width = 72
+    OnClick = ValorClick
+    TabOrder = 2
+    Text = 'Valor'
+    Visible = False
+  end
+  object Valor2: TEdit
+    Left = 112
+    Height = 23
+    Top = 144
+    Width = 80
+    OnClick = Valor2Click
+    TabOrder = 3
+    Text = 'Valor2'
+    Visible = False
+  end
+  object Operar: TButton
+    Left = 64
+    Height = 25
+    Top = 184
+    Width = 78
+    Caption = 'Operar'
+    OnClick = OperarClick
+    TabOrder = 4
+    Visible = False
+  end
+  object ResultadoOperacion: TEdit
+    Left = 24
+    Height = 23
+    Top = 288
+    Width = 152
+    TabOrder = 5
+    Visible = False
+  end
+  object Resultado: TLabel
+    Left = 72
+    Height = 15
+    Top = 264
+    Width = 52
+    Caption = 'Resultado'
+    ParentColor = False
+    Visible = False
+  end
+  object ValorSolitario: TEdit
+    Left = 64
+    Height = 23
+    Top = 144
+    Width = 80
+    OnClick = ValorSolitarioClick
+    TabOrder = 6
+    Text = 'Valor'
+    Visible = False
+  end
+  object Posicion: TEdit
+    Left = 64
+    Height = 23
+    Top = 152
+    Width = 80
+    OnClick = PosicionClick
+    TabOrder = 7
+    Text = 'Posicion'
+    Visible = False
+  end
+end

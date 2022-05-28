@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Proyecto1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="proyecto1u.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Proyecto1U"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="303"/>
+        <CursorPos X="20" Y="309"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="digitosu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DigitosU"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="52"/>
+        <CursorPos X="23" Y="56"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="D:\Lazaruss\lcl\include\customlabel.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="183"/>
+        <CursorPos X="26" Y="199"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="320" Column="14" TopLine="288"/>
+      </Position1>
+      <Position2>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="319" Column="14" TopLine="287"/>
+      </Position2>
+      <Position3>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="320" Column="14" TopLine="288"/>
+      </Position3>
+      <Position4>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="319" Column="14" TopLine="287"/>
+      </Position4>
+      <Position5>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="320" Column="14" TopLine="288"/>
+      </Position5>
+      <Position6>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="319" Column="14" TopLine="287"/>
+      </Position6>
+      <Position7>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="320" Column="14" TopLine="288"/>
+      </Position7>
+      <Position8>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="319" Column="14" TopLine="287"/>
+      </Position8>
+      <Position9>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="320" Column="14" TopLine="288"/>
+      </Position9>
+      <Position10>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="319" Column="14" TopLine="287"/>
+      </Position10>
+      <Position11>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="320" Column="14" TopLine="288"/>
+      </Position11>
+      <Position12>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="319" Column="14" TopLine="287"/>
+      </Position12>
+      <Position13>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="320" Column="14" TopLine="288"/>
+      </Position13>
+      <Position14>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="319" Column="14" TopLine="107"/>
+      </Position14>
+      <Position15>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="70" Column="8" TopLine="51"/>
+      </Position15>
+      <Position16>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="71" Column="8" TopLine="52"/>
+      </Position16>
+      <Position17>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="70" Column="8" TopLine="51"/>
+      </Position17>
+      <Position18>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="79" Column="18" TopLine="57"/>
+      </Position18>
+      <Position19>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="80" Column="18" TopLine="58"/>
+      </Position19>
+      <Position20>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="79" Column="18" TopLine="57"/>
+      </Position20>
+      <Position21>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="80" Column="18" TopLine="58"/>
+      </Position21>
+      <Position22>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="79" Column="18" TopLine="57"/>
+      </Position22>
+      <Position23>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="320" Column="18" TopLine="167"/>
+      </Position23>
+      <Position24>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="321" Column="18" TopLine="289"/>
+      </Position24>
+      <Position25>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="320" Column="4" TopLine="303"/>
+      </Position25>
+      <Position26>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="321" Column="4" TopLine="304"/>
+      </Position26>
+      <Position27>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="320" Column="4" TopLine="303"/>
+      </Position27>
+      <Position28>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="323" Column="26" TopLine="303"/>
+      </Position28>
+      <Position29>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="324" Column="26" TopLine="304"/>
+      </Position29>
+      <Position30>
+        <Filename Value="proyecto1u.pas"/>
+        <Caret Line="323" Column="26" TopLine="303"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

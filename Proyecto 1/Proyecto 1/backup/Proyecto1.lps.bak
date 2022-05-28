@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="Proyecto1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="51" Y="10"/>
+        <UsageCount Value="66"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\Cup\Proyecto 1\proyecto1ucompleto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="proyecto1uCompleto"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="864"/>
+        <CursorPos X="7" Y="16"/>
+        <UsageCount Value="66"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="digitosu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DigitosU"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="11" Y="14"/>
+        <UsageCount Value="66"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="enterosup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EnterosU"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17"/>
+        <UsageCount Value="56"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="enterosprueba.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EnterosPrueba"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="19"/>
+        <UsageCount Value="55"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="enterosu2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EnterosU2"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="24" Y="352"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="D:\Lazaruss\lcl\include\customlabel.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="183"/>
+        <CursorPos X="26" Y="199"/>
+        <UsageCount Value="5"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="D:\Lazaruss\lcl\lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="101"/>
+        <CursorPos Y="116"/>
+        <UsageCount Value="6"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="enterosunidad.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="19" Y="57"/>
+        <UsageCount Value="6"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="enterosu.pas"/>
+        <UnitName Value="EnterosU"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="39"/>
+        <CursorPos X="36" Y="71"/>
+        <UsageCount Value="6"/>
+      </Unit9>
+    </Units>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="..\..\Cup\Proyecto 1\proyecto1ucompleto.pas"/>
+        <Caret Line="16" Column="7"/>
+      </Position1>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
